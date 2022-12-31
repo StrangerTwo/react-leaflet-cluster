@@ -1,8 +1,6 @@
 import React from 'react';
 import L, { LeafletMouseEventHandlerFn } from 'leaflet';
 import 'leaflet.markercluster';
-import './assets/MarkerCluster.css';
-import './assets/MarkerCluster.Default.css';
 declare type ClusterEvents = {
     onClick?: LeafletMouseEventHandlerFn;
     onDblClick?: LeafletMouseEventHandlerFn;
