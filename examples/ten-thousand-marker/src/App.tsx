@@ -3,6 +3,9 @@ import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 import { addressPoints } from './realworld'
 import 'leaflet/dist/leaflet.css'
 import MarkerClusterGroup from "react-leaflet-cluster";
+import 'leaflet.markercluster/dist/MarkerCluster.css'
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
+
 type AdressPoint = Array<[number, number, string]>
 
 function App() {
